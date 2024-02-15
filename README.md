@@ -15,4 +15,8 @@ Steps:
 5. Create a sample application in packages/app/src/index2.js
 6. Update packages/app/package.json to include "start": "node src/index.js" in the scripts section.
 7.Create an HTML file (packages/app/index.html) with a container element
+to run the application:
+cd packages/app
+npm start
+
 Open your browser and navigate to http://localhost:8000 (or the specified port). You should see the simple web page with an h1 tag and a button. The console logs for mounting and state change events should appear in the browser's console when you interact with the button.
