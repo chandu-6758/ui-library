@@ -15,7 +15,8 @@ Steps:
 5. Create a sample application in packages/app/src/index2.js
 6. Update packages/app/package.json to include "start": "node src/index.js" in the scripts section.
 7.Create an HTML file (packages/app/index.html) with a container element
-to run the application:
+
+To run the application:
 cd packages/app
 npm start
 
